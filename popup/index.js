@@ -1,7 +1,7 @@
 let key = document.querySelector("#key");
 let sendBtn = document.querySelector("#send");
 sendBtn.onclick = () => {
-    sendBtn.value = "Wysano";
+    sendBtn.value = "Zapisano";
     chrome.tabs.query({
         active: true,
         currentWindow: true

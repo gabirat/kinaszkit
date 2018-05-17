@@ -1,4 +1,5 @@
 let ENABLED = false;
+let SILENT_MODE = false;
 const MAGIC_KEY = 96;
 
 let test_type = window.location.href.slice(window.location.href.indexOf('e1'), -29);
@@ -118,20 +119,22 @@ let key = '';
 
 chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
     console.log("KEY: ", request.key);
-    if(request.msg === "key")
+    if (request.msg === "key")
         key = request.key;
     sendResponse("gotIt");
 });
 
 function silent_mode_on() {
-    if(key) {
-        //console.log("SILENT");
-        for (let i = 0; i < cached_answers_DOM.length; i++) {
-            $(cached_answers_DOM[i]).hover(() => {
-                $.ajax({
-                    url: `http://gabirat.pl/api/kinaszkit/key/${key}`
-                });
-            }, ()=>{});
+    if (!SILENT_MODE) {
+        if (key) {
+            //console.log("SILENT");
+            for (let i = 0; i < cached_answers_DOM.length; i++) {
+                $(cached_answers_DOM[i]).hover(() => {
+                    $.ajax({
+                        url: `http://gabirat.pl/api/kinaszkit/key/${key}`
+                    });
+                }, () => { });
+            }
         }
     }
 }

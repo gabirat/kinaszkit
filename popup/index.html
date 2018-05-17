@@ -6,11 +6,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Code</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            width: 200px;
+            height: 200px;
+            margin: 0;
+            padding: 0;
+            background: rgb(20, 37, 15);
+            display: grid;
+            align-items: center;
+            justify-items: center;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            text-transform: uppercase;
+            text-align: center;
+        }
+
+        #key {
+            width: 80%;
+            height: 80%;
+            font-size: 2rem;
+            text-transform: uppercase;
+            text-align: center;
+        }
+
+        #send {
+            width: 80%;
+            height: 80%;
+            border-radius: 10px;
+            padding: 10px;
+            font-size: 15px;
+        }
+    </style>
 </head>
 
 <body>
-    <input placeholder="Twój klucz dostępu" type="text" id="key" />
+    <input placeholder="Kod" type="text" id="key" />
     <input type="button" id="send" value="Zatwierdz" />
 </body>
 <script src="index.js"></script>
+
 </html>
