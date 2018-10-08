@@ -3237,32 +3237,77 @@ const questions_db = {
             "answer": "wejście do BIOS-u komputera"
         },
         {
-            "question": "Za pomocą polecenia taskmgr użytkownik systemu Windows może",
-            "answer": "zakończyć działanie wadliwej aplikacji"
+            "question": "Aby uzyskać przepustowość na poziomie 4 GB/s w każdą stronę, należy zamontować w zestawie komputerowym kartę graficzną wykorzystującą interfejs",
+            "answer": "PCI-Express x 16 wersja 1.0"
         },
         {
-            "question": "Jaką rozdzielczość musi obsługiwać karta graficzna, aby oglądać na 23-calowym monitorze materiał video w trybie Full HD?",
-            "answer": "1920×1080"
+            "question": "Do konfiguracji i personalizacji środowiska graficznego GNOME w różnych systemach Linux należy wykorzystać program",
+            "answer": "GNOME Tweak Tool"
         },
         {
-            "question": "Który interfejs umożliwia korzystanie ze sterowników i oprogramowania systemu operacyjnego, zapewniając m.in. przepływ danych między pamięcią systemową a dyskiem SATA?",
-            "answer": "AHCI"
+            "question": "Instalując system operacyjny Linux należy skorzystać z systemu plików",
+            "answer": "ReiserFS"
         },
         {
-            "question": "Funkcję bufora pomiędzy wolną pamięcią operacyjną a szybkim procesorem pełni pamięć",
-            "answer": "CACHE"
+            "question": "Narzędziem systemu Windows, służącym do sprawdzenia wpływu poszczególnych procesów i usłg na wydajność procesora oraz tego, w jakim stopniu generują one obciążenie pamięci czy dysku, jest",
+            "answer": "resmon"
         },
         {
-            "question": "Impulsator umożliwia testowanie uszkodzonych układów logicznych komputera między innymi przez",
-            "answer": "podanie na wejście układu stanu wysokiego"
+            "question": "Odnalezienie głównego rekordu rozruchowego, wczytującego system z aktywnej partycji umożliwia",
+            "answer": "BootstrapLoader"
         },
         {
-            "question": "Aby ustawić w systemach operacyjnych rodziny Windows właściwość pliku na tylko do odczytu, należy użyć polecenia",
-            "answer": "attrib"
+            "question": "Do realizacji iloczynu logicznego z negacją należy użyć funktora",
+            "answer": "NAND"
         },
         {
-            "question": "Procesory CISC charakteryzują się",
-            "answer": "dużą liczbą rozkazów"
+            "question": "Umowa, na mocy której użytkownik ma między innymi wgląd do kodu źródłowego oprogramowania w celu jego analizy oraz udoskonalania, to licencja",
+            "answer": "GNU GPL"
+        },
+        {
+            "question": "Aby podłączyć projektor multimedialny do komputera, nie należy używać złącza",
+            "answer": "SATA"
+        },
+        {
+            "question": "W biurze rachunkowym znajduje się w jednym pomieszczeniu sześć komputerów podłączonych do koncentratora kablem UTP Cat 5e. Pracownicy użytkujący te komputery muszą mieć możliwość drukowania bardzo dużej ilości (powyżej 5 tys. stron miesięcznie) dokumentów monochromatycznych. Aby koszty zakupu sprzętu i eksploatacji były jak najniższe należy wybrać:",
+            "answer": "laserową drukarkę sieciową z portem RJ45"
+        },
+        {
+            "question": "Użytkownik zamierza zainstalować 32-bitowy system operacyjny Windows 7. Ile minimalnie pamięci RAM musi posiadać komputer, aby była możliwa praca systemu w trybie graficznym ?",
+            "answer": "1 GB"
+        },
+        {
+            "question": "W systemach Linux, aby dodać repozytorium, można użyć poleceń",
+            "answer": "zypper ar oraz add-apt-repository"
+        },
+        {
+            "question": "Komputer, którego naprawa ma zostać przeprowadzona u klienta, nie reaguje na wciśnięcie przycisku POWER. Pierwszą czynnością harmonogramu prac związanych z lokalizacją i usunięciem tej usterki powinno być",
+            "answer": "sprawdzenie zasilania w gniazdku sieciowym"
+        },
+        {
+            "question": "Pracownik serwisu komputerowego podczas wykonywania konserwacji i czyszczenia drukarki laserowej, odłączonej od źródła zasilania, może wykorzystać jako środek ochrony indywidualnej",
+            "answer": "rękawiczki ochronne"
+        },
+        {
+            "question": "W który rodzaj matrycy powinien być wyposażony monitor w modernizowanym zestawie komputerowym w przypadku konieczności zapewnienia wysokiej jakości obrazu oraz szerokich kątów widzenia w poziomie i pionie?",
+            "answer": "IPS"
+        },
+        {
+            "question": "Aby zapobiec nieautoryzowanym zmianom na koncie użytkownika w systemie Windows 7, 8 lub 10 wymagającym uprawnień administratora, należy skonfigurować",
+            "answer": "UAC"
+        },
+        {
+            "question": "Zapis liczby siedem w systemie ósemkowym to",
+            "answer": "7(o)"
+        },
+        {
+            "question": "Element płyty głównej odpowiedzialny za wymianę danych między mikroprocesorem a pamięcią operacyjną RAM oraz magistralą karty graficznej jest na rysunku oznaczony numerem",
+            "img": "http://egzamin-informatyk.pl/e12/841.jpg",
+            "answer": "6"
+        },
+        {
+            "question": "Użytkownik systemu Linux, chcąc przetestować dysk twardy pod kątem występowania na nim uszkodzonych sektorów, może użyć programu",
+            "answer": "fsck"
         },
         {
             "question": "Za pomocą przedstawionego na rysunku urządzenia można przetestować działanie",
@@ -3270,68 +3315,233 @@ const questions_db = {
             "answer": "zasilacza"
         },
         {
-            "question": "Prawo do modyfikowania kodu oprogramowania przez jego użytkownika daje licencja typu",
-            "answer": "GNU GPL"
-        },
-        {
-            "question": "Zapis liczby siedem w systemie ósemkowym to",
-            "answer": "7(o)"
-        },
-        {
-            "question": "W biurze rachunkowym znajduje się w jednym pomieszczeniu sześć komputerów podłączonych do koncentratora kablem UTP Cat 5e. Pracownicy użytkujący te komputery muszą mieć możliwość drukowania bardzo dużej ilości (powyżej 5 tys. stron miesięcznie) dokumentów monochromatycznych. Aby koszty zakupu sprzętu i eksploatacji były jak najniższe należy wybrać:",
-            "answer": "laserową drukarkę sieciową z portem RJ45"
-        },
-        {
-            "question": "Którą z opcji konfiguracji ustawień użytkownika z ograniczonymi uprawnieniami w systemie Windows, umożliwia przystawka secpol?",
-            "answer": "Zezwolenie na zmianę czasu systemowego"
-        },
-        {
-            "question": "Użytkownik ma problem z rozruchem systemu Windows. Aby to naprawić, uruchomił narzędzie System Image Recovery, które",
-            "answer": "przywraca system na podstawie kopii zapasowej"
-        },
-        {
             "question": "Zapis koloru RGB(255, 170, 129) odpowiada notacji",
             "answer": "#FFAA81"
         },
         {
-            "question": "W komputerze zamontowano nowy dysk twardy o pojemności 8 TB i podzielono go na 2 partycje, każda po 4 TB wielkości. Którego typu tablicy partycji należy użyć, aby można było dokonać takiego partycjonowania?",
-            "answer": "GPT"
+            "question": "Polecenie uname -s w systemie Linux jest wykorzystywane do sprawdzania",
+            "answer": "nazwy jądra systemu operacyjnego"
+        },
+        {
+            "question": "W dokumentacji technicznej procesora producent umieścił wyniki testu przeprowadzonego za pomocą programu CPU-Z. Wynika z niego, że procesor ma",
+            "img": "http://egzamin-informatyk.pl/e12/822.jpg",
+            "answer": "2 rdzenie"
+        },
+        {
+            "question": "W którym gnieździe należy zainstalować procesor INTEL CORE i3-4350- 3.60 GHz, x2/4, 4MB, 54W, HD 4600, BOX, s-1150?",
+            "img": "http://egzamin-informatyk.pl/e12/845.jpg",
+            "answer": "B"
+        },
+        {
+            "question": "Aby wymontować dysk twardy zamocowany w laptopie za pomocą przedstawionych śrub montażowych, najlepiej użyć wkrętaka typu",
+            "img": "http://egzamin-informatyk.pl/e12/868.jpg",
+            "answer": "philips"
+        },
+        {
+            "question": "Przedstawiony panel tylny płyty głównej jest wyposażony w interfejsy:",
+            "img": "http://egzamin-informatyk.pl/e12/858.jpg",
+            "answer": "2 x USB 3.0; 4 x USB 2.0, 1.1, 1 x D-SUB"
         },
         {
             "question": "W strategii archiwizacji danych zwanej Dziadek – Ojciec – Syn na poziomie Dziadek wykonuje się kopię danych na koniec",
             "answer": "miesiąca"
         },
         {
-            "question": "Użytkownik systemu Windows za pomocą programu Cipher może",
-            "answer": "chronić dane przez szyfrowanie plików"
+            "question": "W systemie Windows użycie prezentowanego polecenia spowoduje tymczasową zmianę koloru",
+            "img": "http://egzamin-informatyk.pl/e12/848.jpg",
+            "answer": "czcionki wiersza poleceń"
         },
         {
-            "question": "Brak informacji o parzystości liczby lub o znaku wyniku wykonywanej operacji w ALU, może świadczyć o problemach w działaniu",
-            "answer": "rejestru flagowego"
+            "question": "Funkcję bufora pomiędzy wolną pamięcią operacyjną a szybkim procesorem pełni pamięć",
+            "answer": "CACHE"
+        },
+        {
+            "question": "Do wykonania obrazu dysku twardego można użyć programu",
+            "answer": "Acronis True Image"
+        },
+        {
+            "question": "Przedstawiona na diagramie strategia zapisu kopii zapasowych na nośnikach nosi nazwę",
+            "img": "http://egzamin-informatyk.pl/e12/877.jpg",
+            "answer": "wieża Hanoi"
+        },
+        {
+            "question": "Rysunek przedstawia wynik wykonania programu",
+            "img": "http://egzamin-informatyk.pl/e12/819.jpg",
+            "answer": "tree"
+        },
+        {
+            "question": "Który procesor należy wykorzystać podczas montażu komputera osobistego na bazie płyty głównej Asus M5A78L-M/USB3 AMD760G socket AM3+",
+            "answer": "AMD FX 8300 3300MHz AM3+ OEM"
+        },
+        {
+            "question": "Jaką rozdzielczość musi obsługiwać karta graficzna, aby oglądać na 23-calowym monitorze materiał video w trybie Full HD?",
+            "answer": "1920×1080"
         },
         {
             "question": "Który przyrząd pomiarowy służy do sprawdzenia wartości napięć w zasilaczu?",
             "answer": "Woltomierz"
         },
         {
-            "question": "Transmisja interfejsem równoległym synchronicznym cechuje się tym, że",
-            "answer": "w wyznaczonych okresach czasu określanych sygnałem zegarowym CLK dane przesyłane są jednocześnie kilkoma przewodami"
+            "question": "Administrator systemu Windows zauważył wyraźne spowolnienie pracy komputera spowodowane małą ilością wolnej pamięci RAM. Aby sprawdzić, który program zużywa jej najwięcej należy użyć programu",
+            "answer": "tasklist"
         },
         {
-            "question": "Wskaż nieprawidłowy podział dysku z tablicą partycji MBR",
-            "answer": "1 partycja podstawowa i 2 rozszerzone"
+            "question": "Procesory CISC charakteryzują się",
+            "answer": "dużą liczbą rozkazów"
         },
         {
-            "question": "Aby zapobiec nieautoryzowanym zmianom na koncie użytkownika w systemie Windows 7, 8 lub 10 wymagającym uprawnień administratora, należy skonfigurować",
-            "answer": "UAC"
+            "question": "Po wykonaniu eksportu klucza HKCR zostanie zapisana kopia rejestru, zawierająca informacje dotyczące konfiguracji",
+            "answer": "powiązań między typami plików a aplikacjami"
         },
         {
-            "question": "Użytkownik zamierza zainstalować 32-bitowy system operacyjny Windows 7. Ile minimalnie pamięci RAM musi posiadać komputer, aby była możliwa praca systemu w trybie graficznym ?",
-            "answer": "1 GB"
+            "question": "Interfejs UDMA to interfejs",
+            "answer": "równoległy, który został zastąpiony przez interfejs SATA"
         },
         {
-            "question": "Instalując system operacyjny Linux należy skorzystać z systemu plików",
-            "answer": "ReiserFS"
+            "question": "W dokumentacji technicznej procesora umieszczonego na płycie głównej komputera szybkość zegara podaje się w",
+            "answer": "GHz"
+        },
+        {
+            "question": "Przedstawione wbudowane narzędzie systemów Windows w wersji Enterprise lub Ultimate służy do",
+            "img": "http://egzamin-informatyk.pl/e12/853.jpg",
+            "answer": "kryptograficznej ochrony danych na dyskach"
+        },
+        {
+            "question": "Wskaż znak umieszczany na urządzeniach elektrycznych przeznaczonych do obrotu i sprzedaży w Unii Europejskiej",
+            "img": "http://egzamin-informatyk.pl/e12/856.jpg",
+            "answer": "B"
+        },
+        {
+            "question": "Użytkownik laptopa chce do niego podłączyć przedstawioną na rysunku kartę sieciową. Aby to było możliwe, laptop musi być wyposażony w gniazdo",
+            "img": "http://egzamin-informatyk.pl/e12/807.jpg",
+            "answer": "PCMCIA"
+        },
+        {
+            "question": "Która czynność NIE służy do personalizacji systemu operacyjnego Windows?",
+            "answer": "Ustawienie wielkości partycji wymiany"
+        },
+        {
+            "question": "Do przedstawionej na rysunku płyty głównej nie można podłączyć urządzenia wykorzystującego złącze",
+            "img": "http://egzamin-informatyk.pl/e12/804.jpg",
+            "answer": "AGP"
+        },
+        {
+            "question": "Brak informacji o parzystości liczby lub o znaku wyniku wykonywanej operacji w ALU, może świadczyć o problemach w działaniu",
+            "answer": "rejestru flagowego"
+        },
+        {
+            "question": "Impulsator umożliwia testowanie uszkodzonych układów logicznych komputera między innymi przez",
+            "answer": "podanie na wejście układu stanu wysokiego"
+        },
+        {
+            "question": "Którą z opcji konfiguracji ustawień użytkownika z ograniczonymi uprawnieniami w systemie Windows, umożliwia przystawka secpol?",
+            "answer": "Zezwolenie na zmianę czasu systemowego"
+        },
+        {
+            "question": "Przedstawiony schemat obrazuje zasadę działania",
+            "img": "http://egzamin-informatyk.pl/e12/859.jpg",
+            "answer": "myszy optycznej"
+        },
+        {
+            "question": "Które polecenie należy wykonać w celu zamontowania pierwszej partycji logicznej dysku primary slave w systemie Linux?",
+            "answer": "mount /dev/hdb5 /mnt/hdd"
+        },
+        {
+            "question": "W systemie Windows po wydaniu polecenia systeminfo NIE UZYSKA SIĘ informacji o",
+            "answer": "liczbie partycji podstawowych"
+        },
+        {
+            "question": "Natychmiast po zauważeniu utraty ważnych plików na dysku twardym użytkownik powinien",
+            "answer": "uchronić dysk przed zapisem nowych danych"
+        },
+        {
+            "question": "Komputer ma podłączoną mysz bezprzewodową, a kursor podczas pracy nie porusza się płynie, \"skacze\" po ekranie. Przyczyną usterki urządzenia może być",
+            "answer": "wyczerpywanie się baterii zasilającej"
+        },
+        {
+            "question": "Użytkownik systemu Windows za pomocą programu Cipher może",
+            "answer": "chronić dane przez szyfrowanie plików"
+        },
+        {
+            "question": "Aby ustawić w systemach operacyjnych rodziny Windows właściwość pliku na tylko do odczytu, należy użyć polecenia",
+            "answer": "attrib"
+        },
+        {
+            "question": "Za pomocą polecenia taskmgr użytkownik systemu Windows może",
+            "answer": "zakończyć działanie wadliwej aplikacji"
+        },
+        {
+            "question": "Wymiana baterii należy do czynności związanych z eksploatacją",
+            "answer": "myszy bezprzewodowej"
+        },
+        {
+            "question": "Aby poprawić wydajność komputera, można w nim zamontować procesor obsługujący technologię Hyper-Threading, umożliwiającą",
+            "answer": "wykonywanie przez jeden rdzeń procesora dwóch niezależnych zadań jednocześnie"
+        },
+        {
+            "question": "Program typu recovery, w warunkach domowych, pozwala na odzyskanie danych z dysku twardego w przypadku",
+            "answer": "przypadkowego usunięcia danych"
+        },
+        {
+            "question": "W skanerze z układami CIS elementem oświetlającym skanowany dokument jest",
+            "answer": "grupa trójkolorowych diod LED"
+        },
+        {
+            "question": "Pliki specjalne urządzeń, tworzone podczas instalacji sterowników w systemie Linux, są zapisywane w katalogu",
+            "answer": "/dev"
+        },
+        {
+            "question": "Aby zapobiec występowaniu różnic w kolorach między zeskanowanymi zdjęciami wyświetlanymi na monitorze komputerowym a ich oryginałami, należy wykonać",
+            "answer": "kalibrację skanera"
+        },
+        {
+            "question": "Administrator systemu Linux wylistował zawartość katalogu /home/szkola w terminalu i uzyskał następujący wynik -rwx -x r-x 1 admin admin 25 04-09 15:17 szkola.txt Następnie wydał polecenie: chmod ug=rw szkola.txt | Is -I Jaki będzie efekt jego działania, wyświetlony w oknie terminala?",
+            "answer": "-rw- rw- r-x 1 admin admin 25 04-09 15:17 szkola.txt"
+        },
+        {
+            "question": "Komputer wyposażony w BIOS firmy Award wygenerował komunikat o treści Primary/Secondary master/slave hard disk fail. Komunikat ten może oznaczać konieczność wymiany",
+            "answer": "dysku twardego"
+        },
+        {
+            "question": "Narzędziem wiersza poleceń w systemie Windows, umożliwiającym zamianę tablicy partycji GPT na MBR, jest program",
+            "answer": "diskpart"
+        },
+        {
+            "question": "W systemie Windows za pomocą polecenia assoc można",
+            "answer": "zmienić skojarzenia rozszerzeń plików"
+        },
+        {
+            "question": "Na wyświetlaczu drukarki pojawił się komunikat \"PAPER JAM\". Aby usunąć usterkę, należy w pierwszej kolejności",
+            "answer": "zlokalizować miejsce zacięcia papieru w drukarce"
+        },
+        {
+            "question": "Modułem pamięci RAM, kompatybilnym z płytą główną GIGABYTE GA-X99-ULTRA GAMING/ X99/8xDDR4 2133, ECC, max 128GB/ 4x PCI-E 16x/ RAID/ USB 3.1/ S-2011-V3/ATX, jest pamięć",
+            "answer": "HPE 32GB (1x32GB) Quad Rank x4 DDR4-2133 CAS-15-15-15 Load Reduced Memory Kit, ECC"
+        },
+        {
+            "question": "DB-25 jest wykorzystywane jako złącze",
+            "answer": "portu równoległego LPT"
+        },
+        {
+            "question": "Które narzędzie najlepiej wykorzystać do lekkiego odgięcia blachy obudowy komputera oraz zamocowania śruby montażowej w trudno dostępnym miejscu?",
+            "img": "http://egzamin-informatyk.pl/e12/867.jpg",
+            "answer": "D"
+        },
+        {
+            "question": "Podczas pracy z drukarką laserową blade wydruki lub nierównomierne nanoszenie medium drukującego mogą świadczyć o",
+            "answer": "wyczerpywaniu się tonera"
+        },
+        {
+            "question": "Który z interfejsów jest portem równoległym?",
+            "answer": "IEEE1284"
+        },
+        {
+            "question": "Programem służącym do archiwizacji danych w systemie Linux jest",
+            "answer": "tar"
+        },
+        {
+            "question": "Aby w systemie Windows ustawić właściwości wszystkich zainstalowanych urządzeń lub wyświetlić ich listę, należy użyć narzędzia",
+            "answer": "devmgmt.msc"
         },
         {
             "question": "Elementem zestawu komputerowego przetwarzającym zarówno dane wejściowe, jak i wyjściowe jest",
@@ -3342,100 +3552,62 @@ const questions_db = {
             "answer": "net accounts"
         },
         {
-            "question": "Rysunek przedstawia wynik wykonania programu",
-            "img": "http://egzamin-informatyk.pl/e12/819.jpg",
-            "answer": "tree"
-        },
-        {
             "question": "Aby możliwe było przesyłanie cyfrowego sygnału audio i wideo bez strat jakości z komputera do urządzenia zewnętrznego podłączonego do wyjścia karty graficznej, to karta graficzna powinna być wyposażona w interfejs",
             "answer": "HDMI"
         },
         {
-            "question": "W systemie Windows po wydaniu polecenia systeminfo NIE UZYSKA SIĘ informacji o",
-            "answer": "liczbie partycji podstawowych"
+            "question": "W komputerze zamontowano nowy dysk twardy o pojemności 8 TB i podzielono go na 2 partycje, każda po 4 TB wielkości. Którego typu tablicy partycji należy użyć, aby można było dokonać takiego partycjonowania?",
+            "answer": "GPT"
         },
         {
-            "question": "Aby uzyskać przepustowość na poziomie 4 GB/s w każdą stronę, należy zamontować w zestawie komputerowym kartę graficzną wykorzystującą interfejs",
-            "answer": "PCI-Express x 16 wersja 1.0"
+            "question": "Wskaż nieprawidłowy podział dysku z tablicą partycji MBR",
+            "answer": "1 partycja podstawowa i 2 rozszerzone"
         },
         {
-            "question": "Który typ licencji uprawnia do dowolnych modyfikacji, kopiowania oraz rozpowszechniania po uiszczeniu dowolnej opłaty na rzecz autora?",
-            "answer": "donationware"
+            "question": "Użytkownik ma problem z rozruchem systemu Windows. Aby to naprawić, uruchomił narzędzie System Image Recovery, które",
+            "answer": "przywraca system na podstawie kopii zapasowej"
         },
         {
-            "question": "Użytkownik systemu Linux, chcąc przetestować dysk twardy pod kątem występowania na nim uszkodzonych sektorów, może użyć programu",
-            "answer": "fsck"
+            "question": "Aby wyświetlić przedstawioną informację o systemie Linux w terminalu, mależy użyć polecenia",
+            "img": "http://egzamin-informatyk.pl/e12/852.jpg",
+            "answer": "uname -a"
         },
         {
-            "question": "Do przedstawionej na rysunku płyty głównej nie można podłączyć urządzenia wykorzystującego złącze",
-            "img": "http://egzamin-informatyk.pl/e12/804.jpg",
-            "answer": "AGP"
-        },
-        {
-            "question": "W który rodzaj matrycy powinien być wyposażony monitor w modernizowanym zestawie komputerowym w przypadku konieczności zapewnienia wysokiej jakości obrazu oraz szerokich kątów widzenia w poziomie i pionie?",
-            "answer": "IPS"
-        },
-        {
-            "question": "W systemie Windows za pomocą polecenia assoc można",
-            "answer": "zmienić skojarzenia rozszerzeń plików"
-        },
-        {
-            "question": "Który z interfejsów jest portem równoległym?",
-            "answer": "IEEE1284"
-        },
-        {
-            "question": "Administrator systemu Linux wylistował zawartość katalogu /home/szkola w terminalu i uzyskał następujący wynik -rwx -x r-x 1 admin admin 25 04-09 15:17 szkola.txt Następnie wydał polecenie: chmod ug=rw szkola.txt | Is -I Jaki będzie efekt jego działania, wyświetlony w oknie terminala?",
-            "answer": "-rw- rw- r-x 1 admin admin 25 04-09 15:17 szkola.txt"
-        },
-        {
-            "question": "W dokumentacji technicznej procesora producent umieścił wyniki testu przeprowadzonego za pomocą programu CPU-Z. Wynika z niego, że procesor ma",
-            "img": "http://egzamin-informatyk.pl/e12/822.jpg",
-            "answer": "2 rdzenie"
-        },
-        {
-            "question": "W dokumentacji technicznej procesora umieszczonego na płycie głównej komputera szybkość zegara podaje się w",
-            "answer": "GHz"
-        },
-        {
-            "question": "Który procesor należy wykorzystać podczas montażu komputera osobistego na bazie płyty głównej Asus M5A78L-M/USB3 AMD760G socket AM3+",
-            "answer": "AMD FX 8300 3300MHz AM3+ OEM"
+            "question": "Drukarka fotograficzna ma bardzo brudną obudowę oraz wyświetlacz. Aby usunąć zabrudzenia, należy użyć",
+            "answer": "wilgotnej ściereczki oraz pianki do czyszczenia plastiku"
         },
         {
             "question": "Do sprawdzania rozmiaru katalogu w systemie Linux służy polecenie",
             "answer": "du"
         },
         {
-            "question": "Aby poprawić wydajność komputera, można w nim zamontować procesor obsługujący technologię Hyper-Threading, umożliwiającą",
-            "answer": "wykonywanie przez jeden rdzeń procesora dwóch niezależnych zadań jednocześnie"
+            "question": "Który typ licencji uprawnia do dowolnych modyfikacji, kopiowania oraz rozpowszechniania po uiszczeniu dowolnej opłaty na rzecz autora?",
+            "answer": "donationware"
         },
         {
-            "question": "Programem służącym do archiwizacji danych w systemie Linux jest",
-            "answer": "tar"
+            "question": "Montaż przedstawionej karty graficznej będzie możliwy na płycie głównej wyposażonej w złącze",
+            "img": "http://egzamin-informatyk.pl/e12/843.jpg",
+            "answer": "PCI-E x16"
         },
         {
-            "question": "Podczas pracy z drukarką laserową blade wydruki lub nierównomierne nanoszenie medium drukującego mogą świadczyć o",
-            "answer": "wyczerpywaniu się tonera"
+            "question": "Liczba BACA zapisana w systemie heksadecymalnym odpowiada liczbie",
+            "answer": "1011101011001010 (2)"
         },
         {
-            "question": "Aby zapobiec występowaniu różnic w kolorach między zeskanowanymi zdjęciami wyświetlanymi na monitorze komputerowym a ich oryginałami, należy wykonać",
-            "answer": "kalibrację skanera"
+            "question": "Transmisja interfejsem równoległym synchronicznym cechuje się tym, że",
+            "answer": "w wyznaczonych okresach czasu określanych sygnałem zegarowym CLK dane przesyłane są jednocześnie kilkoma przewodami"
         },
         {
-            "question": "W skanerze z układami CIS elementem oświetlającym skanowany dokument jest",
-            "answer": "grupa trójkolorowych diod LED"
+            "question": "Który interfejs umożliwia korzystanie ze sterowników i oprogramowania systemu operacyjnego, zapewniając m.in. przepływ danych między pamięcią systemową a dyskiem SATA?",
+            "answer": "AHCI"
         },
         {
-            "question": "Administrator systemu Windows zauważył wyraźne spowolnienie pracy komputera spowodowane małą ilością wolnej pamięci RAM. Aby sprawdzić, który program zużywa jej najwięcej należy użyć programu",
-            "answer": "tasklist"
+            "question": "Materiałem eksploatacyjnym, stosowanym w rzutniku multimedialnym, jest",
+            "answer": "lampa projekcyjna"
         },
         {
-            "question": "Użytkownik laptopa chce do niego podłączyć przedstawioną na rysunku kartę sieciową. Aby to było możliwe, laptop musi być wyposażony w gniazdo",
-            "img": "http://egzamin-informatyk.pl/e12/807.jpg",
-            "answer": "PCMCIA"
-        },
-        {
-            "question": "Które polecenie należy wykonać w celu zamontowania pierwszej partycji logicznej dysku primary slave w systemie Linux?",
-            "answer": "mount /dev/hdb5 /mnt/hdd"
+            "question": "Prawo do modyfikowania kodu oprogramowania przez jego użytkownika daje licencja typu",
+            "answer": "GNU GPL"
         }
     ],
     e13: [
@@ -5918,91 +6090,24 @@ const questions_db = {
             "answer": "RIP"
         },
         {
-            "question": "Który protokół pocztowy umożliwia między innymi przechowywanie odbieranych wiadomości e-mail na serwerze, zarządzanie wieloma folderami, usuwanie wiadomości i przenoszenie ich pomiędzy folderami?",
-            "answer": "Internet Message Access Protocol (IMAP)"
+            "question": "Jaka jest liczba adresów, które można przydzielić urządzeniom pracującym w sieci o adresie IP 192.168.20.0/26?",
+            "answer": "62"
         },
         {
-            "question": "Urządzeniem sieciowym przedstawionym na schemacie sieci jest",
-            "img": "http://egzamin-informatyk.pl/e13/615.jpg",
-            "answer": "ruter"
+            "question": "Który z adresów IP jest adresem hosta pracującego w sieci o adresie 192.168.160.224/28?",
+            "answer": "192.168.160.225"
         },
         {
-            "question": "Internet Relay Chat (IRC) to protokół stosowany do",
-            "answer": "prowadzenia rozmów za pomocą konsoli tekstowej"
+            "question": "Komputer utracił połączenie z siecią komputerową. Jakie działanie należy wykonać w pierwszej kolejności, aby rozwiązać problem?",
+            "answer": "Sprawdzić adres IP przypisany do karty sieciowej"
         },
         {
-            "question": "Które urządzenie diagnostyczne jest przedstawione na rysunku i opisane w specyfikacji przedstawionej w tabeli?",
-            "img": "http://egzamin-informatyk.pl/e13/636.jpg",
-            "answer": "Analizator sieci bezprzewodowych"
+            "question": "Sieć komputerowa ograniczająca się do komputerów wyłącznie jednej organizacji, w której mogą istnieć usługi, realizowane przez serwery w sieci LAN, np. strony WWW, poczta elektroniczna to",
+            "answer": "Intranet"
         },
         {
-            "question": "Do sprawdzania statystyk protokołów TCP/IP oraz aktualnych połączeń sieciowych w systemach rodziny Windows jest stosowane polecenie",
-            "answer": "netstat"
-        },
-        {
-            "question": "Standard Transport Layer Security (TLS) to rozwinięcie protokołu",
-            "answer": "Security Socket Layer (SSL)"
-        },
-        {
-            "question": "Rysunek przedstawia konfigurację protokołu TCP/IP serwera i stacji roboczej. Na serwerze jest zainstalowana rola serwera DNS. Polecenie ping www.cke.edu.pl uruchomione na serwerze daje wynik pozytywny, a na stacji roboczej negatywny. Aby usługa DNS na stacji działała prawidłowo, należy zmienić adres",
-            "img": "http://egzamin-informatyk.pl/e13/647.jpg",
-            "answer": "serwera DNS na stacji roboczej na 192.168.1.10"
-        },
-        {
-            "question": "Do ilu sieci należą komputery o adresach IP i maskach sieci przedstawionych w tabeli?",
-            "img": "http://egzamin-informatyk.pl/e13/630.jpg",
-            "answer": "3"
-        },
-        {
-            "question": "Do jakiego rodzaju wtyków jest stosowana przedstawiona na rysunku zaciskarka?",
-            "img": "http://egzamin-informatyk.pl/e13/627.jpg",
-            "answer": "BNC"
-        },
-        {
-            "question": "Który z adresów jest adresem rozgłoszeniowym sieci 172.16.64.0/26?",
-            "answer": "172.16.64.63"
-        },
-        {
-            "question": "Którym elementem sieci SIP jest telefon IP?",
-            "answer": "Terminalem końcowym"
-        },
-        {
-            "question": "W której topologii sieci fizycznej każdy komputer jest połączony z dokładnie dwoma sąsiednimi komputerami, bez dodatkowych urządzeń aktywnych?",
-            "answer": "Pierścienia"
-        },
-        {
-            "question": "Który z wymienionych programów umożliwi sporządzenie rysunku technicznego przedstawiającego plan instalacji logicznej sieci lokalnej budynku?",
-            "answer": "AutoCad"
-        },
-        {
-            "question": "W stacjach roboczych są zainstalowane karty sieciowe Ethernet 10/100/1000 ze złączem RJ45. Które medium transmisyjne należy wybrać do budowy sieci komputerowej, aby zapewnić pracę z najwyższą przepustowością?",
-            "answer": "Kabel UTP kategorii 5e"
-        },
-        {
-            "question": "Który z adresów IP ma przypisaną maskę w postaci pełnej, wynikającą z klasy adresu?",
-            "answer": "180.12.56.1, 255.255.0.0"
-        },
-        {
-            "question": "Atak DDoS (ang. Disributed Denial of Service) na serwer spowoduje",
-            "answer": "przeciążenie aplikacji serwującej określone dane"
-        },
-        {
-            "question": "Które urządzenie sieciowe zostało przedstawione na rysunku?",
-            "img": "http://egzamin-informatyk.pl/e13/616.jpg",
-            "answer": "Modem USB"
-        },
-        {
-            "question": "Które urządzenie umożliwi podłączenie drukarki nieposiadającej karty sieciowej do lokalnej sieci komputerowej?",
-            "answer": "Serwer wydruku"
-        },
-        {
-            "question": "Jakie są wartości pasma częstotliwości oraz maksymalnej szybkości transmisji danych w standardzie 802.11g WiFi?",
-            "answer": "2,4 GHz 54 Mbps"
-        },
-        {
-            "question": "Na podstawie przedstawionego cennika oblicz, jaki będzie koszt brutto jednego dwumodułowego podwójnego natynkowego gniazda abonenckiego.",
-            "img": "http://egzamin-informatyk.pl/e13/622.jpg",
-            "answer": "28,00 zł"
+            "question": "Który typ kabla należy zastosować do podłączenia komputera w pomieszczeniu z zakłóceniami elektromagnetycznymi?",
+            "answer": "FTP Cat 5e"
         },
         {
             "question": "Adres IP serwera, na którym jest zainstalowana domena www.wp.pl to 212.77.98.9. Co jest przyczyną sytuacji przedstawionej na zrzucie ekranowym?",
@@ -6010,9 +6115,80 @@ const questions_db = {
             "answer": "Błędny adres serwera DNS lub brak połączenia z serwerem DNS"
         },
         {
-            "question": "Który z symboli oznacza przełącznik?",
-            "img": "http://egzamin-informatyk.pl/e13/614.jpg",
-            "answer": "D"
+            "question": "Użytkownicy korzystający z sieci Wi-Fi zaobserwowali zaburzenia i częstą utratę połączenia z siecią. Powodem takiego stanu rzeczy może być",
+            "answer": "zbyt słaby sygnał"
+        },
+        {
+            "question": "Zjawisko przesłuchu, występujące w sieciach komputerowych, polega na",
+            "answer": "przenikaniu sygnału pomiędzy sąsiadującymi w kablu parami przewodów"
+        },
+        {
+            "question": "W dokumentacji powykonawczej fizycznej i logicznej struktury sieci lokalnej musi znajdować się",
+            "answer": "schemat sieci z oznaczonymi punktami dystrybucyjnymi i gniazdami"
+        },
+        {
+            "question": "Który zestaw protokołów jest stosowany w procesie komunikacji hosta z serwerem WWW po wpisaniu adresu strony w przeglądarce internetowej hosta?",
+            "answer": "HTTP, TCP, IP"
+        },
+        {
+            "question": "Element zamontowany na stałe u abonenta, w którym znajduje się zakończenie okablowania strukturalnego poziomego, to",
+            "answer": "gniazdo teleinformatyczne"
+        },
+        {
+            "question": "Rysunek przedstawia konfigurację protokołu TCP/IP serwera i stacji roboczej. Na serwerze jest zainstalowana rola serwera DNS. Polecenie ping www.cke.edu.pl uruchomione na serwerze daje wynik pozytywny, a na stacji roboczej negatywny. Aby usługa DNS na stacji działała prawidłowo, należy zmienić adres",
+            "img": "http://egzamin-informatyk.pl/e13/647.jpg",
+            "answer": "serwera DNS na stacji roboczej na 192.168.1.10"
+        },
+        {
+            "question": "Które urządzenie zwiększy zasięg sieci bezprzewodowej?",
+            "answer": "Wzmacniacz sygnału"
+        },
+        {
+            "question": "Akronim określający usługi, których zadaniem jest między innymi nadawanie priorytetu przesyłanym pakietom oraz kształtowanie przepustowości w sieci, to",
+            "answer": "QoS"
+        },
+        {
+            "question": "Użytkownicy z grupy Pracownicy nie mogą drukować dokumentów przy użyciu serwera wydruku na systemie operacyjnym Windows Server. Mają oni przydzielone uprawnienia tylko \"Zarządzanie dokumentami\". Co należy zrobić, aby rozwiązać opisany problem?",
+            "answer": "Dla grupy Pracownicy należy nadać uprawnienia \"Drukuj\""
+        },
+        {
+            "question": "Wykonanie polecenia net use Z:\\192.168.20.2\\data /delete spowoduje",
+            "answer": "odłączenie katalogu data od dysku Z:"
+        },
+        {
+            "question": "Zainstalowanie serwera stron internetowych w rodzinie systemów Windows Server umożliwia rola",
+            "answer": "serwer sieci Web"
+        },
+        {
+            "question": "Urządzeniem sieciowym przedstawionym na schemacie sieci jest",
+            "img": "http://egzamin-informatyk.pl/e13/615.jpg",
+            "answer": "ruter"
+        },
+        {
+            "question": "Która polska norma określa standardy okablowania strukturalnego?",
+            "answer": "PN-EN 50173"
+        },
+        {
+            "question": "Do sprawdzania statystyk protokołów TCP/IP oraz aktualnych połączeń sieciowych w systemach rodziny Windows jest stosowane polecenie",
+            "answer": "netstat"
+        },
+        {
+            "question": "Na podstawie przedstawionego cennika oblicz, jaki będzie koszt brutto jednego dwumodułowego podwójnego natynkowego gniazda abonenckiego.",
+            "img": "http://egzamin-informatyk.pl/e13/622.jpg",
+            "answer": "28,00 zł"
+        },
+        {
+            "question": "Szkodliwe oprogramowanie, które w celu umożliwienia ataku na zainfekowany komputer może np. otworzyć jeden z portów, to",
+            "answer": "trojan"
+        },
+        {
+            "question": "Który protokół pocztowy umożliwia między innymi przechowywanie odbieranych wiadomości e-mail na serwerze, zarządzanie wieloma folderami, usuwanie wiadomości i przenoszenie ich pomiędzy folderami?",
+            "answer": "Internet Message Access Protocol (IMAP)"
+        },
+        {
+            "question": "Które urządzenie sieciowe zostało przedstawione na rysunku?",
+            "img": "http://egzamin-informatyk.pl/e13/616.jpg",
+            "answer": "Modem USB"
         },
         {
             "question": "Sposób działania którego protokołu został przedstawiony na rysunku?",
@@ -6020,12 +6196,37 @@ const questions_db = {
             "answer": "Dynamic Host Configuration Protocol (DHCP)"
         },
         {
-            "question": "Który z wymienionych adresów IPv4 należy do klasy B?",
-            "answer": "128.100.100.10"
+            "question": "Na rysunku przedstawiono konfigurację karty sieciowej, której adres MAC ma wartość",
+            "img": "http://egzamin-informatyk.pl/e13/674.jpg",
+            "answer": "0A-00-27-00-00-07"
         },
         {
-            "question": "Który adres protokołu IP w wersji 4 ma prawidłową strukturę?",
-            "answer": "192.21.140.1"
+            "question": "Serwerem DNS w systemie Linux jest",
+            "answer": "BIND"
+        },
+        {
+            "question": "Który ze standardów wraz z odpowiednią kategorią skrętki są dopasowane tak, aby obsługiwały maksymalny transfer danych?",
+            "answer": "10GBASE-T oraz Cat 7"
+        },
+        {
+            "question": "Norma TIA/EIA-568-B.2 określa specyfikację parametrów transmisyjnych",
+            "answer": "kabli UTP"
+        },
+        {
+            "question": "Który protokół jest stosowany do terminalowego łączenia się ze zdalnymi urządzeniami zapewniający transfer zaszyfrowanych danych?",
+            "answer": "SSH (Secure Shell)"
+        },
+        {
+            "question": "W pomieszczeniu biurowym należy zainstalować 5 podwójnych gniazd abonenckich. Średnia odległość gniazda abonenckiego od lokalnego punktu dystrybucyjnego wynosi 10m. Jaki będzie przybliżony koszt zakupu kabla UTP kategorii 5e przeznaczonego do budowy sieci lokalnej, jeżeli cena brutto 1m kabla UTP kategorii 5e wynosi 1,60 zł?",
+            "answer": "160,00 zł"
+        },
+        {
+            "question": "Komputer lokalny ma adres 192.168.0.5. Po uruchomieniu strony internetowej z tego komputera, która identyfikuje adresy w sieci uzyskano informację, że adresem komputera jest 195.182.130.24. Oznacza to, że",
+            "answer": "adres został przetłumaczony przez translację NAT"
+        },
+        {
+            "question": "Który z wymienionych adresów IPv4 należy do klasy B?",
+            "answer": "128.100.100.10"
         },
         {
             "question": "Które polecenie uruchamia edytor zasad grup w rodzinie systemów Windows Server?",
@@ -6036,56 +6237,54 @@ const questions_db = {
             "answer": "SF/FTP"
         },
         {
-            "question": "Protokołem sieciowym definiującym mechanizmy stosowane do zarządzania urządzeniami sieciowymi jest",
-            "answer": "Simple Network Management Protocol (SNMP)"
-        },
-        {
-            "question": "Norma TIA/EIA-568-B.2 określa specyfikację parametrów transmisyjnych",
-            "answer": "kabli UTP"
-        },
-        {
-            "question": "Ile punktów abonenckich (2 x RJ45), zgodnie z zaleceniami normy PN-EN 50167, powinno znajdować się w pomieszczeniu biurowym o powierzchni 49 m2?",
-            "answer": "5"
+            "question": "Który adres protokołu IP w wersji 4 ma prawidłową strukturę?",
+            "answer": "192.21.140.1"
         },
         {
             "question": "Utworzenie kontrolera domeny w rodzinie systemów Windows Server na lokalnym serwerze wymaga zainstalowania roli",
             "answer": "usługi domenowej w usłudze Active Directory"
         },
         {
+            "question": "Które urządzenie aktywne umożliwi połączenie z siecą lokalną za pomocą kabla UTP 15 komputerów, drukarki sieciowej oraz rutera?",
+            "answer": "Przełącznik 24-portowy"
+        },
+        {
+            "question": "Atak DDoS (ang. Disributed Denial of Service) na serwer spowoduje",
+            "answer": "przeciążenie aplikacji serwującej określone dane"
+        },
+        {
+            "question": "Które urządzenie diagnostyczne jest przedstawione na rysunku i opisane w specyfikacji przedstawionej w tabeli?",
+            "img": "http://egzamin-informatyk.pl/e13/636.jpg",
+            "answer": "Analizator sieci bezprzewodowych"
+        },
+        {
+            "question": "Aby w adresie IPv4 wyznaczyć długość prefiksu adresu sieci, należy sprawdzić",
+            "answer": "liczbę początkowych bitów mających wartość 1 w masce adresu IPv4"
+        },
+        {
+            "question": "Do jakiego rodzaju wtyków jest stosowana przedstawiona na rysunku zaciskarka?",
+            "img": "http://egzamin-informatyk.pl/e13/627.jpg",
+            "answer": "BNC"
+        },
+        {
+            "question": "Ile punktów abonenckich (2 x RJ45), zgodnie z zaleceniami normy PN-EN 50167, powinno znajdować się w pomieszczeniu biurowym o powierzchni 49 m2?",
+            "answer": "5"
+        },
+        {
             "question": "User Datagram Protocol (UDP) jest protokołem",
             "answer": "bezpołączeniowym warstwy transportowej modelu TCP/IP"
         },
         {
-            "question": "Który typ kabla należy zastosować do podłączenia komputera w pomieszczeniu z zakłóceniami elektromagnetycznymi?",
-            "answer": "FTP Cat 5e"
+            "question": "Jakie są wartości pasma częstotliwości oraz maksymalnej szybkości transmisji danych w standardzie 802.11g WiFi?",
+            "answer": "2,4 GHz 54 Mbps"
         },
         {
-            "question": "Wykonanie polecenia net use Z:\\192.168.20.2\\data /delete spowoduje",
-            "answer": "odłączenie katalogu data od dysku Z:"
+            "question": "Który z wymienionych programów umożliwi sporządzenie rysunku technicznego przedstawiającego plan instalacji logicznej sieci lokalnej budynku?",
+            "answer": "AutoCad"
         },
         {
-            "question": "Wskaż, które zdanie opisujące zaporę sieciową jest fałszywe",
-            "answer": "Jest zainstalowana na każdym przełączniku"
-        },
-        {
-            "question": "Jest to najnowsza wersja klienta wieloplatformowego, cenionego przez użytkowników na całym świecie, serwera wirtualnej sieci prywatnej, pozwalającego na zestawienie pomiędzy hostem a komputerem lokalnym połączenia, obsługującego uwierzytelnianie z użyciem kluczy, jak również certyfikatów, nazwy użytkownika i hasła, a także, w wersji dla Windows, dodatkowych kart. Który z programów został opisany przed chwilą?",
-            "answer": "OpenVPN"
-        },
-        {
-            "question": "Jaka jest liczba adresów, które można przydzielić urządzeniom pracującym w sieci o adresie IP 192.168.20.0/26?",
-            "answer": "62"
-        },
-        {
-            "question": "W pomieszczeniu biurowym należy zainstalować 5 podwójnych gniazd abonenckich. Średnia odległość gniazda abonenckiego od lokalnego punktu dystrybucyjnego wynosi 10m. Jaki będzie przybliżony koszt zakupu kabla UTP kategorii 5e przeznaczonego do budowy sieci lokalnej, jeżeli cena brutto 1m kabla UTP kategorii 5e wynosi 1,60 zł?",
-            "answer": "160,00 zł"
-        },
-        {
-            "question": "Które urządzenie zwiększy zasięg sieci bezprzewodowej?",
-            "answer": "Wzmacniacz sygnału"
-        },
-        {
-            "question": "W dokumentacji powykonawczej fizycznej i logicznej struktury sieci lokalnej musi znajdować się",
-            "answer": "schemat sieci z oznaczonymi punktami dystrybucyjnymi i gniazdami"
+            "question": "W której topologii sieci fizycznej każdy komputer jest połączony z dokładnie dwoma sąsiednimi komputerami, bez dodatkowych urządzeń aktywnych?",
+            "answer": "Pierścienia"
         },
         {
             "question": "Która z topologii przedstawionych na rysunkach jest topologią siatki?",
@@ -6093,23 +6292,156 @@ const questions_db = {
             "answer": "A"
         },
         {
-            "question": "Zainstalowanie serwera stron internetowych w rodzinie systemów Windows Server umożliwia rola",
-            "answer": "serwer sieci Web"
+            "question": "Który adres podsieci jest prawidłowy po pożyczeniu 4 bitów z części hosta z adresu klasowego 192.168.1.0?",
+            "answer": "192.168.1.48/28"
         },
         {
-            "question": "Które urządzenie aktywne umożliwi połączenie z siecą lokalną za pomocą kabla UTP 15 komputerów, drukarki sieciowej oraz rutera?",
-            "answer": "Przełącznik 24-portowy"
+            "question": "Aby wdrożyć usługę zdalnej instalacji systemów operacyjnych na stacjach roboczych należy w Windows Server zainstalować rolę",
+            "answer": "WDS (Usługi wdrażania systemu Windows)"
         },
         {
-            "question": "Która polska norma określa standardy okablowania strukturalnego?",
-            "answer": "PN-EN 50173"
+            "question": "Urządzenie sieciowe służące do połączenia pięciu komputerów ze sobą w tej samej sieci, tak aby nie występowały kolizje pakietów, to",
+            "answer": "przełącznik"
+        },
+        {
+            "question": "Metoda dostępu do medium CSMA/CA jest stosowana w sieci o standardzie",
+            "answer": "IEEE 802.11"
+        },
+        {
+            "question": "Ile symboli przełączników i ruterów jest na schemacie?",
+            "img": "http://egzamin-informatyk.pl/e13/656.jpg",
+            "answer": "4 przełączniki i 3 rutery"
+        },
+        {
+            "question": "Jak nazywany jest proces dokładania do danych z warstwy aplikacji informacji związanych z protokołami działającymi na poszczególnych warstwach modelu sieciowego?",
+            "answer": "Enkapsulacja"
+        },
+        {
+            "question": "Protokół, który tłumaczy nazwy domenowe na adresy IP, to",
+            "answer": "DNS (Domain Name System)"
+        },
+        {
+            "question": "Który ze znaków w systemach z rodziny Windows należy zastosować podczas udostępniania zasobu ukrytego w sieci?",
+            "answer": "$"
+        },
+        {
+            "question": "Z którym protokołem są związane pojęcia \"Sequence number\" i \"Acknowledgment number\"?",
+            "img": "http://egzamin-informatyk.pl/e13/672.jpg",
+            "answer": "TCP (Transmission Control Protocol)"
+        },
+        {
+            "question": "Aby utworzyć las w strukturze katalogowej AD DS (Active Directory Domain Services), należy utworzyć co najmniej",
+            "answer": "jedno drzewo domeny"
+        },
+        {
+            "question": "Jednym ze sposobów utrudnienia osobom niepowołanym dostępu do sieci bezprzewodowej jest",
+            "answer": "wyłączenie rozgłaszania identyfikatora sieci"
+        },
+        {
+            "question": "Pierwsze znaki heksadecymalne adresu IPv6 typu link-local to",
+            "answer": "FE80"
+        },
+        {
+            "question": "Który z symboli oznacza przełącznik?",
+            "img": "http://egzamin-informatyk.pl/e13/614.jpg",
+            "answer": "D"
+        },
+        {
+            "question": "Który z protokołów jest stosowany w telefonii internetowej?",
+            "answer": "H.323"
+        },
+        {
+            "question": "Który z adresów jest adresem rozgłoszeniowym sieci 172.16.64.0/26?",
+            "answer": "172.16.64.63"
+        },
+        {
+            "question": "W celu bezpiecznego połączenia z serwerem firmowym przez Internet, tak aby mieć dostęp do zasobów firmowych, należy zastosować oprogramowanie klienta",
+            "answer": "VPN (Virtual Private Network)"
+        },
+        {
+            "question": "Który z adresów jest adresem klasy B?",
+            "answer": "191.168.0.1"
+        },
+        {
+            "question": "Jaka jest kolejność części adresu globalnego IPv6 typu unicast przedstawionego na rysunku?",
+            "img": "http://egzamin-informatyk.pl/e13/654.jpg",
+            "answer": "1 - globalny prefiks, 2 - identyfikator podsieci, 3 - identyfikator interfejsu"
+        },
+        {
+            "question": "Którym elementem sieci SIP jest telefon IP?",
+            "answer": "Terminalem końcowym"
+        },
+        {
+            "question": "Jakim kolorem jest oznaczona izolacja żyły skrętki w pierwszym pinie wtyku RJ45 w sekwencji połączeń T568A?",
+            "answer": "Biało-zielonym"
+        },
+        {
+            "question": "Aby mieć pewność, że komputer otrzyma od serwera DHCP konkretny adres IP trzeba na serwerze zdefiniować",
+            "answer": "zastrzeżenie adresu IP komputera"
+        },
+        {
+            "question": "Algorytm, który jest stosowany w celu sprawdzenia czy ramka Ethernet nie zawiera błędów, to",
+            "answer": "CRC (Cyclic Redundancy Check)"
+        },
+        {
+            "question": "Protokołem sieciowym definiującym mechanizmy stosowane do zarządzania urządzeniami sieciowymi jest",
+            "answer": "Simple Network Management Protocol (SNMP)"
+        },
+        {
+            "question": "Standard Transport Layer Security (TLS) to rozwinięcie protokołu",
+            "answer": "Security Socket Layer (SSL)"
+        },
+        {
+            "question": "W stacjach roboczych są zainstalowane karty sieciowe Ethernet 10/100/1000 ze złączem RJ45. Które medium transmisyjne należy wybrać do budowy sieci komputerowej, aby zapewnić pracę z najwyższą przepustowością?",
+            "answer": "Kabel UTP kategorii 5e"
+        },
+        {
+            "question": "Który z adresów IP ma przypisaną maskę w postaci pełnej, wynikającą z klasy adresu?",
+            "answer": "180.12.56.1, 255.255.0.0"
+        },
+        {
+            "question": "Internet Relay Chat (IRC) to protokół stosowany do",
+            "answer": "prowadzenia rozmów za pomocą konsoli tekstowej"
+        },
+        {
+            "question": "Który protokół jest wykorzystywany do przesyłania plików bez nawiązania połączenia?",
+            "answer": "TFTP (Trivial File Transfer Protocol)"
+        },
+        {
+            "question": "Które urządzenie umożliwi podłączenie drukarki nieposiadającej karty sieciowej do lokalnej sieci komputerowej?",
+            "answer": "Serwer wydruku"
+        },
+        {
+            "question": "Wskaż, które zdanie opisujące zaporę sieciową jest fałszywe",
+            "answer": "Jest zainstalowana na każdym przełączniku"
+        },
+        {
+            "question": "Do ilu sieci należą komputery o adresach IP i maskach sieci przedstawionych w tabeli?",
+            "img": "http://egzamin-informatyk.pl/e13/630.jpg",
+            "answer": "3"
+        },
+        {
+            "question": "Aby odczytać adres serwera DNS w konfiguracji karty sieciowej systemu z rodziny Windows należy wykonać polecenie",
+            "answer": "ipconfig /all"
+        },
+        {
+            "question": "Najszybszym sposobem wstawienia skrótu do konkretnego programu na pulpitach wszystkich użytkowników domenowych jest",
+            "answer": "użycie zasad grupy"
+        },
+        {
+            "question": "Administrator musi podzielić adres 10.0.0.0/16 na 4 równe podsieci o tej samej liczbie hostów. Jaką maskę będą miały te podsieci?",
+            "answer": "255.255.192.0"
+        },
+        {
+            "question": "Jest to najnowsza wersja klienta wieloplatformowego, cenionego przez użytkowników na całym świecie, serwera wirtualnej sieci prywatnej, pozwalającego na zestawienie pomiędzy hostem a komputerem lokalnym połączenia, obsługującego uwierzytelnianie z użyciem kluczy, jak również certyfikatów, nazwy użytkownika i hasła, a także, w wersji dla Windows, dodatkowych kart. Który z programów został opisany przed chwilą?",
+            "answer": "OpenVPN"
+        },
+        {
+            "question": "Zestaw reguł definiujących sposób przesyłania informacji w sieci opisuje",
+            "answer": "protokół"
         }
     ],
     e14: [
-        {
-            "question": "Chcąc sformatować w stylach CSS wszystkie obrazy zawarte w akapicie, powinno się użyć selektora",
-            "answer": "p img"
-        },
         {
             "question": "W programie Microsoft Access formą zabezpieczeń dostępu do danych związaną z tabelą i kwerendą jest",
             "answer": "przypisanie uprawnień"
@@ -7841,27 +8173,9 @@ const questions_db = {
             "answer": "całkowitych"
         },
         {
-            "question": "Przy użyciu którego znacznika w języku HTML nie można umieścić na stronie grafiki dynamicznej?",
-            "answer": "<strike>"
-        },
-        {
-            "question": "Jakie elementy wypisze funkcja wypisz(2) stworzona w języku JavaScript?",
-            "img": "http://egzamin-informatyk.pl/e14/439.jpg",
-            "answer": "3 4 6"
-        },
-        {
-            "question": "Podaj wynik działania programu zapisanego w języku JavaScript, znajdującego się w ramce, po podaniu na wejściu wartości 5",
-            "img": "http://egzamin-informatyk.pl/e14/435.jpg",
-            "answer": "120"
-        },
-        {
-            "question": "Automatyczna weryfikacja właściciela strony udostępnianej przez protokół HTTPS jest możliwa dzięki",
-            "answer": "certyfikatowi SSL"
-        },
-        {
-            "question": "Którą czynność gwarantującą poprawne wykonanie przedstawionego kodu JavaScript, należy wykonać przed pętlą?",
-            "img": "http://egzamin-informatyk.pl/e14/393.jpg",
-            "answer": "Zainicjować zmienną text"
+            "question": "W prezentowanym kodzie PHP w miejscu kropek powinno znaleźć się polecenie",
+            "img": "http://egzamin-informatyk.pl/e14/484.jpg",
+            "answer": "mysqli_fetch_row($zapytanie);"
         },
         {
             "question": "Poprawne udokumentowanie wzorca weryfikacji pola nazwa w części kodu aplikacji JavaScript to",
@@ -7869,72 +8183,53 @@ const questions_db = {
             "answer": "/* Pole nazwa może zawierać dowolny ciąg cyfr (z wyłączeniem 0), następnie musi zawierać dużą literę i ciąg minimum dwóch małych liter. */"
         },
         {
-            "question": "Połączenie dwóch barw leżących po przeciwnych stronach w kole barw jest połączeniem",
-            "answer": "dopełniającym"
+            "question": "W języku JavaScript wynik działania instrukcji zmienna++; będzie taki sam jak instrukcji",
+            "answer": "zmienna+=1;"
         },
         {
-            "question": "Jak działa instrukcja łącząca wyniki zapytań INTERSECT w języku SQL?",
-            "answer": "Zwraca część wspólną wyników dwóch zapytań."
+            "question": "Aby zapisać prostą animację na potrzeby strony internetowej, można skorzystać z formatu",
+            "answer": "GIF"
         },
         {
-            "question": "Znaczniki <header>, <article>, <section>, <footer> są charakterystyczne dla języka",
-            "answer": "HTML 5"
+            "question": "Edytując grafikę  w edytorze grafiki rastrowej należy pozbyć się kolorów z rysunku tak, aby obraz był w odcieniach szarości. Można do tego efektu wykorzystać funkcję",
+            "answer": "desaturacji"
         },
         {
-            "question": "W języku CSS, zapis w następującej postaci sprawi, iż koloru czerwonego będzie",
-            "img": "http://egzamin-informatyk.pl/e14/293.jpg",
-            "answer": "pierwsza litera nagłówka pierwszego stopnia"
+            "question": "Przy użyciu którego znacznika w języku HTML nie można umieścić na stronie grafiki dynamicznej?",
+            "answer": "<strike>"
         },
         {
-            "question": "Wskaż BŁĘDNY opis optymalizacji kodu wynikowego programu",
-            "answer": "Jej celem jest sprawdzenie zgodności z wymogami formalnymi"
+            "question": "Przedstawione pole input umożliwi",
+            "img": "http://egzamin-informatyk.pl/e14/449.jpg",
+            "answer": "zaznaczenie opcji"
         },
         {
-            "question": "W celu dodania rekordu do tabeli Pracownicy należy użyć polecenia SQL",
-            "answer": "INSERT INTO Pracownicy VALUES (\"Jan\", \"Kowalski\");"
+            "question": "Wyszukując z tabeli Pracownicy wyłącznie nazwiska, w których ostatnią literą jest \"i\", można użyć kwerendy SQL",
+            "answer": "SELECT nazwisko FROM Pracownicy WHERE nazwisko LIKE \"%i\";"
         },
         {
-            "question": "Językami programowania działającymi po stronie serwera są:",
-            "answer": "Java, C#, Python, Ruby, PHP"
+            "question": "Baza danych zawiera tabelę faktury o polach: numer, data, id_klienta, wartość, status. Każdego dnia generowany jest raport faktur z bieżącego dnia. Wyświetlane są jedynie numery i wartości faktur. Która z kwerend SQL służy do stworzenia tego raportu?",
+            "answer": "SELECT numer, wartosc FROM faktury WHERE data=CURRENT_DATE();"
         },
         {
-            "question": "W celu zmodyfikowania tekstu \"ala ma psa\" na \"ALA MA PSA\" należy użyć funkcji PHP",
-            "answer": "strtoupper(\"ala ma psa\");"
+            "question": "Który z wymienionych formatów plików NIE JEST wykorzystywany do publikacji grafiki lub animacji na stronach internetowych?",
+            "answer": "AIFF"
         },
         {
             "question": "W języku SQL dla dowolnych zestawów danych w tabeli Uczniowie, aby wybrać rekordy, które zawierają wyłącznie uczennice o imieniu \"Aleksandra\", urodzone po roku \"1998\", należy zapisać zapytanie",
             "answer": "SELECT * FROM Uczniowie WHERE imie=\"Aleksandra\" AND rok_urodzenia > \"1998\";"
         },
         {
-            "question": "W kodzie JavaScript pętla zostanie wykonana",
-            "img": "http://egzamin-informatyk.pl/e14/442.jpg",
-            "answer": "3 razy"
+            "question": "Który z elementów dokumentacji aplikacji powinien znaleźć się w dokumentacji użytkownika?",
+            "answer": "Opis obsługi funkcji systemu"
         },
         {
-            "question": "Włączenie do kodu skryptu zawartości pliku egzamin.php, zawierającego kod PHP, wymaga dodania instrukcji",
-            "answer": "include(\"egzamin.php\");"
+            "question": "Językami programowania działającymi po stronie serwera są:",
+            "answer": "Java, C#, Python, Ruby, PHP"
         },
         {
-            "question": "Dana jest tabela pracownicy. Polecenie MySQL usuwające wszystkie rekordy z tabeli, dla których nie wypełniono pola rodzaj_umowy, ma postać",
-            "answer": "DELETE FROM pracownicy WHERE rodzaj_umowy IS NULL;"
-        },
-        {
-            "question": "Aby stworzyć przycisk na stronę internetową według wzoru, należy w programie do grafiki rastrowej użyć opcji",
-            "img": "http://egzamin-informatyk.pl/e14/419.jpg",
-            "answer": "zaokrąglenie lub wybranie opcji prostokąt z zaokrąglonymi rogami"
-        },
-        {
-            "question": "Wskaż prawidłową kolejność stylów CSS mając na uwadze ich pierwszeństwo w formatowaniu elementów strony WWW.",
-            "answer": "Lokalny, Wewnętrzny, Zewnętrzny"
-        },
-        {
-            "question": "Wskaż PRAWDZIWE stwierdzenie dla polecenia: CREATE TABLE IF NOT EXISTS ADRES(ulica VARCHAR(70) CHARACTER SET utf8);",
-            "answer": "IF NOT EXISTS stosuje się opcjonalnie, aby upewnić się, że brak w bazie danych takiej tabeli"
-        },
-        {
-            "question": "Które ze znaczników HTML umożliwią wyświetlenie na stronie tekstu w jednym wierszu, jeżeli żadne formatowanie CSS nie zostało zdefiniowane?",
-            "img": "http://egzamin-informatyk.pl/e14/408.jpg",
-            "answer": "<span>Dobre strony </span><span style=\"letter-spacing:3px\">mojej strony</span>"
+            "question": "Połączenie dwóch barw leżących po przeciwnych stronach w kole barw jest połączeniem",
+            "answer": "dopełniającym"
         },
         {
             "question": "Instrukcja przypisania elementu do tablicy w języku JavaScript dotyczy tablicy",
@@ -7942,24 +8237,45 @@ const questions_db = {
             "answer": "asocjacyjnej"
         },
         {
-            "question": "W języku HTML atrybut shape znacznika area, określający typ obszaru, może przyjąć wartość",
-            "answer": "rect, poly, circle"
+            "question": "Model barw oparty na 3 parametrach: odcień, nasycenie i jasność to",
+            "answer": "HSV"
         },
         {
-            "question": "Chcąc zdefiniować marginesy wewnętrzne dla danych: margines górny 50px, dolny 40px, prawy 20px i lewy 30px należy użyć składni CSS",
-            "answer": "padding: 50px, 20px, 40px, 30px;"
+            "question": "W celu dodania rekordu do tabeli Pracownicy należy użyć polecenia SQL",
+            "answer": "INSERT INTO Pracownicy VALUES (\"Jan\", \"Kowalski\");"
         },
         {
-            "question": "W języku SQL w wyniku wykonania zapytania ALTER TABLE osoba DROP COLUMN grupa; zostanie",
-            "answer": "usunięta kolumna grupa"
+            "question": "Język JavaScrypt ma obsługę",
+            "answer": "obiektów DOM"
+        },
+        {
+            "question": "Aby przywrócić bazę danych z kopii bezpieczeństwa na serwerze MSSQL, należy posłużyć się poleceniem",
+            "answer": "RESTORE DATABASE"
+        },
+        {
+            "question": "Deklaracja typu dokumentu HTML: <!DOCTYPE HTML> oznacza, że kod jest napisany w wersji",
+            "answer": "5"
         },
         {
             "question": "Który z atrybutów background-attachment w języku CSS należy wybrać, aby tło strony było nieruchome względem okna przeglądarki?",
             "answer": "Fixed"
         },
         {
-            "question": "Barwa zapisana w modelu RGB(255, 0, 0) jest",
-            "answer": "czerwona"
+            "question": "W języku CSS zdefiniowano formatowanie dla stopki. Aby użyć tego formatowania dla bloku opisanego znacznikiem div, należy zapisać",
+            "answer": "<div id=\"stopka\">"
+        },
+        {
+            "question": "W kodzie JavaScript pętla zostanie wykonana",
+            "img": "http://egzamin-informatyk.pl/e14/442.jpg",
+            "answer": "3 razy"
+        },
+        {
+            "question": "Zastosowanie kwerendy SQL: DELETE FROM mieszkania WHERE status=1; spowoduje usunięcie",
+            "answer": "rekordów, w których pole status jest równe 1, z tabeli mieszkania"
+        },
+        {
+            "question": "Znaczniki <header>, <article>, <section>, <footer> są charakterystyczne dla języka",
+            "answer": "HTML 5"
         },
         {
             "question": "W języku PHP chcąc wyświetlić ciąg n znaków @, należy użyć funkcji",
@@ -7967,16 +8283,138 @@ const questions_db = {
             "answer": "D"
         },
         {
+            "question": "Tworząc tabelę w języku SQL, zdefiniowano dla kolumny klucz główny. Aby zabezpieczyć ją przed wstawieniem wartości pustej, należy zastosować atrybut",
+            "answer": "NOT NULL"
+        },
+        {
+            "question": "Automatyczna weryfikacja właściciela strony udostępnianej przez protokół HTTPS jest możliwa dzięki",
+            "answer": "certyfikatowi SSL"
+        },
+        {
+            "question": "Dla każdej iteracji pętli wartość bieżącego elementu tablicy jest przypisywana do zmiennej, a wskaźnik tablicy jest przesuwany o eden, aż do ostatniego elementu tablicy. Zdanie to jest prawdziwe dla instrukcji",
+            "answer": "foreach"
+        },
+        {
+            "question": "Zgodnie z właściwościami ACID, dotyczącym wykonania transakcji, wymaganie trwałości (ang. durability) oznacza, że",
+            "answer": "dane zatwierdzone przez transakcję powinny być dostępne niezależnie od tego, co się będzie działo po jej zakończeniu"
+        },
+        {
+            "question": "Które z zadań programistycznych powinno być wykonane po stronie serwera?",
+            "answer": "Zapisanie danych pobranych z aplikacji internetowej w bazie danych"
+        },
+        {
+            "question": "W języku JavaScript należy odwołać się do elementu zawartego w pierwszym paragrafie przedstawionego fragmentu strony HTML. Można to wykonać za pomocą funkcji",
+            "img": "http://egzamin-informatyk.pl/e14/479.jpg",
+            "answer": "getElementByTagName(\"p\")[0];"
+        },
+        {
+            "question": "W języku XHTML zapisano fragment kodu, który zawiera błąd walidacji. Na czym polega ten błąd?",
+            "img": "http://egzamin-informatyk.pl/e14/456.jpg",
+            "answer": "Znacznik <br> powinien być zamknięty"
+        },
+        {
+            "question": "Którą czynność gwarantującą poprawne wykonanie przedstawionego kodu JavaScript, należy wykonać przed pętlą?",
+            "img": "http://egzamin-informatyk.pl/e14/393.jpg",
+            "answer": "Zainicjować zmienną text"
+        },
+        {
+            "question": "W języku SQL w wyniku wykonania zapytania ALTER TABLE osoba DROP COLUMN grupa; zostanie",
+            "answer": "usunięta kolumna grupa"
+        },
+        {
             "question": "Wartość i typ zmiennej w języku PHP można sprawdzić za pomocą funkcji",
             "answer": "var_dump()"
         },
         {
-            "question": "Właściwym zestawem kroków według kolejności, które należy wykonać w celu nawiązania współpracy między aplikacją internetową po stronie serwera a bazą SQL, jest",
-            "answer": "nawiązanie połączenia z serwerem baz danych, wybór bazy, zapytanie do bazy - wyświetlane na stronie WWW, zamknięcie połączenia"
+            "question": "Który z rysunków obrazuje efekt działania przedstawionego fragmentu kodu HTML?",
+            "img": "http://egzamin-informatyk.pl/e14/448.jpg",
+            "answer": "C"
         },
         {
-            "question": "Model barw oparty na 3 parametrach: odcień, nasycenie i jasność to",
-            "answer": "HSV"
+            "question": "W języku JavaScript należy zapisać warunek, który będzie spełniony, gdy zmienna a będzie dowolną liczbą naturalną dodatnią (bez 0) lub gdy zmienna b będzie dowolną liczbą z przedziału domkniętego od 10 do 100. Użyte w tym warunku wyrażenie logiczne będzie miało postać",
+            "answer": "(a>0) || ((b>=10) && (b<=100))"
+        },
+        {
+            "question": "Chcąc zdefiniować marginesy wewnętrzne dla danych: margines górny 50px, dolny 40px, prawy 20px i lewy 30px należy użyć składni CSS",
+            "answer": "padding: 50px, 20px, 40px, 30px;"
+        },
+        {
+            "question": "Zdefiniowanie klucza obcego jest niezbędne do utworzenia",
+            "answer": "relacji 1..n"
+        },
+        {
+            "question": "W języku SQL wykonano przedstawione w ramce polecenia GRANT. Kto będzie miał prawo do przeglądania danych oraz ich zmiany?",
+            "img": "http://egzamin-informatyk.pl/e14/472.jpg",
+            "answer": "Tylko Tomasz"
+        },
+        {
+            "question": "Do tabeli pracownicy wpisano rekordy. Co zostanie wyświetlone po uruchomieniu kwerendy SQL SELECT podanej w ramce?",
+            "img": "http://egzamin-informatyk.pl/e14/463.jpg",
+            "answer": "Wartość 10000, czyli suma pensji pracownika o id=4 oraz o id=6"
+        },
+        {
+            "question": "Pierwszym krokiem podczas przetwarzania sygnału analogowego na cyfrowy jest",
+            "answer": "próbkowanie"
+        },
+        {
+            "question": "W języku CSS, zapis w następującej postaci sprawi, iż koloru czerwonego będzie",
+            "img": "http://egzamin-informatyk.pl/e14/293.jpg",
+            "answer": "pierwsza litera nagłówka pierwszego stopnia"
+        },
+        {
+            "question": "Włączenie do kodu skryptu zawartości pliku egzamin.php, zawierającego kod PHP, wymaga dodania instrukcji",
+            "answer": "include(\"egzamin.php\");"
+        },
+        {
+            "question": "W języku JavaScript zdefiniowana zmienna i, która ma przechowywać wynik dzielenia wynoszący 1, to",
+            "answer": "var i=parseInt(3/2);"
+        },
+        {
+            "question": "Jak zdefiniować w języku CSS formatowanie hiperłącza, żeby nieodwiedzony link był w kolorze żółtym, a odwiedzony w kolorze zielonym?",
+            "answer": "a:link {color: yellow;} a:visited{color: green;}"
+        },
+        {
+            "question": "Które ze znaczników HTML umożliwią wyświetlenie na stronie tekstu w jednym wierszu, jeżeli żadne formatowanie CSS nie zostało zdefiniowane?",
+            "img": "http://egzamin-informatyk.pl/e14/408.jpg",
+            "answer": "<span>Dobre strony </span><span style=\"letter-spacing:3px\">mojej strony</span>"
+        },
+        {
+            "question": "Dana jest tabela mieszkania zawierająca kolumny o nazwach: adres, metraz, ile_pokoi, standard, status, cena. Wykonanie przedstawionej kwerendy SQL SELECT sprawi, że zostaną wyświetlone",
+            "img": "http://egzamin-informatyk.pl/e14/462.jpg",
+            "answer": "Metraż oraz cena tych mieszkań, które mają więcej niż 3 pokoje"
+        },
+        {
+            "question": "Chcąc sformatować w stylach CSS wszystkie obrazy zawarte w akapicie, powinno się użyć selektora",
+            "answer": "p img"
+        },
+        {
+            "question": "Przedstawiono efekt formatowania CSS oraz kod HTML. Jak należy zdefiniować styl, aby osiągnąć takie formatowanie?",
+            "img": "http://egzamin-informatyk.pl/e14/454.jpg",
+            "answer": "p::first-line {font-size: 200%; color:brown;}"
+        },
+        {
+            "question": "W celu zmodyfikowania tekstu \"ala ma psa\" na \"ALA MA PSA\" należy użyć funkcji PHP",
+            "answer": "strtoupper(\"ala ma psa\");"
+        },
+        {
+            "question": "W języku PHP zmienna predefiniowana $_SESSION zawiera",
+            "answer": "zmienne zarejestrowane w bieżącej sesji"
+        },
+        {
+            "question": "Jak działa instrukcja łącząca wyniki zapytań INTERSECT w języku SQL?",
+            "answer": "Zwraca część wspólną wyników dwóch zapytań."
+        },
+        {
+            "question": "Do poprawnego i spójnego działania bazy danych niezbędne jest umieszczenie w każdej tabeli",
+            "answer": "klucza PRIMARY KEY z wartością NOT NULL i UNIQUE"
+        },
+        {
+            "question": "W języku PHP, dla zmiennych a = 5 i b = 3 wartość typu zmiennoprzecinkowego zwróci wyrażenie",
+            "answer": "a / b"
+        },
+        {
+            "question": "Wskaż BŁĘDNY opis optymalizacji kodu wynikowego programu",
+            "answer": "Jej celem jest sprawdzenie zgodności z wymogami formalnymi"
         },
         {
             "question": "Którą relację w projekcie bazy danych należy ustalić między tabelami widocznymi na rysunku zakładając, że każdy klient sklepu internetowego dokona przynajmniej dwóch zamówień?",
@@ -7984,32 +8422,119 @@ const questions_db = {
             "answer": "1:n, gdzie 1 jest po stronie Klienta, a wiele po stronie Zamówienia"
         },
         {
+            "question": "Barwa zapisana w modelu RGB(255, 0, 0) jest",
+            "answer": "czerwona"
+        },
+        {
             "question": "Wskaż FAŁSZYWE stwierdzenie dotyczące normalizacji sygnału dźwiękowego",
             "answer": "Jeśli najgłośniejszy fragment dźwięku osiąga połowę skali, wszystko zostanie pogłośnione razy dwa - czyli tak, aby najgłośniejszy fragment osiągnął maksimum na skali"
         },
         {
-            "question": "Który z wymienionych formatów plików NIE JEST wykorzystywany do publikacji grafiki lub animacji na stronach internetowych?",
-            "answer": "AIFF"
+            "question": "Zakładając, że zmienne: a, b, c przechowują wartości numeryczne, wynikiem działania warunku będzie wypisanie liczby",
+            "img": "http://egzamin-informatyk.pl/e14/194.jpg",
+            "answer": "największej"
         },
         {
-            "question": "Do poprawnego i spójnego działania bazy danych niezbędne jest umieszczenie w każdej tabeli",
-            "answer": "klucza PRIMARY KEY z wartością NOT NULL i UNIQUE"
+            "question": "Właściwym zestawem kroków według kolejności, które należy wykonać w celu nawiązania współpracy między aplikacją internetową po stronie serwera a bazą SQL, jest",
+            "answer": "nawiązanie połączenia z serwerem baz danych, wybór bazy, zapytanie do bazy - wyświetlane na stronie WWW, zamknięcie połączenia"
         },
         {
-            "question": "Pierwszym krokiem podczas przetwarzania sygnału analogowego na cyfrowy jest",
-            "answer": "próbkowanie"
+            "question": "Podana definicja stylu CSS sprawi, że nagłówki pierwszego stopnia będą",
+            "img": "http://egzamin-informatyk.pl/e14/451.jpg",
+            "answer": "wyśrodkowane, pisane wielkimi literami, a odstępy między literami będą ustawione na 10 px"
+        },
+        {
+            "question": "Baza danych ma dwie tabele połączone relacją 1..n. Którą klauzulą SQL należy połączyć tabele, aby wybrać korespondujące ze sobą wartości z pól obu tabel?",
+            "answer": "JOIN"
+        },
+        {
+            "question": "Przedstawiony kod źródłowy ma za zadanie wyświetlić",
+            "img": "http://egzamin-informatyk.pl/e14/478.jpg",
+            "answer": "losowe liczby od 0 do 100 tak długo, aż nie zostanie wylosowana wartość 0"
+        },
+        {
+            "question": "Jakie elementy wypisze funkcja wypisz(2) stworzona w języku JavaScript?",
+            "img": "http://egzamin-informatyk.pl/e14/439.jpg",
+            "answer": "3 4 6"
+        },
+        {
+            "question": "O przedstawionym obiekcie języka JavaScript można powiedzieć, że ma",
+            "img": "http://egzamin-informatyk.pl/e14/480.jpg",
+            "answer": "dwie właściwości i jedną metodę"
+        },
+        {
+            "question": "Aby stworzyć przycisk na stronę internetową według wzoru, należy w programie do grafiki rastrowej użyć opcji",
+            "img": "http://egzamin-informatyk.pl/e14/419.jpg",
+            "answer": "zaokrąglenie lub wybranie opcji prostokąt z zaokrąglonymi rogami"
+        },
+        {
+            "question": "W języku JavaScript stworzono funkcję o nazwie liczba_max porównującą trzy liczby naturalne pobrane z parametrów funkcji i zwracającą maksymalną z nich. Prawidłowe wywołanie takiej funkcji wraz z pobraniem jej wyniku będzie miało postać",
+            "answer": "var wynik=liczba_max(a,b,c);"
+        },
+        {
+            "question": "Dołączenie zewnętrznego arkusza stylów do kodu HTML jest realizowane przy użyciu znacznika",
+            "answer": "<link>"
+        },
+        {
+            "question": "Podaj wynik działania programu zapisanego w języku JavaScript, znajdującego się w ramce, po podaniu na wejściu wartości 5",
+            "img": "http://egzamin-informatyk.pl/e14/435.jpg",
+            "answer": "120"
+        },
+        {
+            "question": "Polecenie SQL, które usuwa bazę danych o nazwie firma, ma postać",
+            "answer": "DROP DATABASE firma;"
+        },
+        {
+            "question": "W języku HTML atrybut shape znacznika area, określający typ obszaru, może przyjąć wartość",
+            "answer": "rect, poly, circle"
+        },
+        {
+            "question": "W języku PHP zastosowano funkcję is_int(). Które z podanych wywołań tej funkcji zwróci wartość TRUE?",
+            "answer": "is_int(135)"
+        },
+        {
+            "question": "Wskaż PRAWDZIWE stwierdzenie dla polecenia: CREATE TABLE IF NOT EXISTS ADRES(ulica VARCHAR(70) CHARACTER SET utf8);",
+            "answer": "IF NOT EXISTS stosuje się opcjonalnie, aby upewnić się, że brak w bazie danych takiej tabeli"
+        },
+        {
+            "question": "W edytorze grafiki wektorowej stworzono przedstawiony kształt, który powstał z dwóch figur: trójkąta i koła. W celu stworzenia tego kształtu, po narysowaniu figur i odpowiednim ich ustawieniu, należy skorzystać z funkcji",
+            "img": "http://egzamin-informatyk.pl/e14/459.jpg",
+            "answer": "sumy"
+        },
+        {
+            "question": "Dana jest tabela pracownicy. Polecenie MySQL usuwające wszystkie rekordy z tabeli, dla których nie wypełniono pola rodzaj_umowy, ma postać",
+            "answer": "DELETE FROM pracownicy WHERE rodzaj_umowy IS NULL;"
+        },
+        {
+            "question": "Wskaż prawidłową kolejność stylów CSS mając na uwadze ich pierwszeństwo w formatowaniu elementów strony WWW.",
+            "answer": "Lokalny, Wewnętrzny, Zewnętrzny"
+        },
+        {
+            "question": "W języku HTML zdefiniowano hiperłącze ze znakiem #. Co stanie się po wybraniu przedstawionego odsyłacza?",
+            "img": "http://egzamin-informatyk.pl/e14/450.jpg",
+            "answer": "Strona przewinie się do elementu o wartości id równej dane"
+        },
+        {
+            "question": "W formularzu dokumentu PHP istnieje pole <input name=\"im\" />. Po wprowadzeniu przez użytkownika ciągu znaków \"Janek\", w celu dodania zawartości pola do bazy danych, w tablicy $_POST zawarty jest element",
+            "answer": "Janek o indeksie im"
+        },
+        {
+            "question": "Na przedstawionej tabeli samochody wykonano zapytanie SQL: SELECT model FROM samochody WHERE rocznik=2016; W wyniku podanego zapytania zostaną zwrócone następujące wartości:",
+            "img": "http://egzamin-informatyk.pl/e14/464.jpg",
+            "answer": "Punto, Corsa, Corolla"
+        },
+        {
+            "question": "Kolor zapisany kodem heksadecymalnym: #1510FE w kodzie RGB będzie miał wartość",
+            "answer": "rgb(21,16,254)"
+        },
+        {
+            "question": "Przedstawione formatowanie CSS sprawi, że dla prezentowanego nagłówka trzeciego stopnia",
+            "img": "http://egzamin-informatyk.pl/e14/455.jpg",
+            "answer": "tło będzie pomarańczowe"
         },
         {
             "question": "W folderze www znajdują się podfoldery html i style, w których zapisane są odpowiednio pliki z rozszerzeniem html i pliki z rozszerzeniem css. Chcąc dołączyć styl.css do pliku HTML należy użyć",
             "answer": "<link rel=\"Stylesheet\" type=\"text/css\" href=\"/../style/styl.css\" />"
-        },
-        {
-            "question": "W języku PHP, dla zmiennych a = 5 i b = 3 wartość typu zmiennoprzecinkowego zwróci wyrażenie",
-            "answer": "a / b"
-        },
-        {
-            "question": "Wyszukując z tabeli Pracownicy wyłącznie nazwiska, w których ostatnią literą jest \"i\", można użyć kwerendy SQL",
-            "answer": "SELECT nazwisko FROM Pracownicy WHERE nazwisko LIKE \"%i\";"
         }
     ]
 };
